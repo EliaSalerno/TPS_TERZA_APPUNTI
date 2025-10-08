@@ -6,7 +6,7 @@
 <details>
 <summary>Modello di Von Neumann</summary>
 
-<table>
+<table border="0">
   <tr>
     <td>
       <p>
