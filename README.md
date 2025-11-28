@@ -63,7 +63,7 @@
       </p>
     </td>
     <td>
-      <img src="img/ram.bmp" alt="ALU - Jhonny simulator" width="550"/>
+      <img src="img/ram.bmp" alt="RAM - Jhonny simulator" width="550"/>
     </td>
   </tr>
 </table>
