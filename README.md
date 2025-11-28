@@ -33,12 +33,12 @@
       <p>
         Nell'architettura di Von Neumann abbiamo 2 componenti fondamentali:
         <ul>
-            Composta da:
+        Composta da:
 
-		1. **ALU**: "arithmetic and logic unit" ovvero unità aritmetico logica, il cui scopo è effettuare i calcoli matematici e logici (matematica boleana)
-		2. **CU**: "control unit" ovvero "unità di controllo", il cui scopo è coordinare tutte le azioni necessarie per l'esecuzione di una istruzione o di un insieme di istruzioni (come abbiamo detto in classe coordina gli altri componenti nella corretta esecuzione delle istruzioni)
-		3. **FPU**: "floating point unit" ovvero "unità di calcolo in virgola mobile", il cui compito sono i calcoli matematici in virgola mobile
-		4. **RU**: "register unit" ovvero "unità di registro", il cui compito è memorizzare lo stato in cui si trova la CPU
+	<li>1. **ALU**: "arithmetic and logic unit" ovvero unità aritmetico logica, il cui scopo è effettuare i calcoli matematici e logici (matematica boleana)</li>
+	<li>2. **CU**: "control unit" ovvero "unità di controllo", il cui scopo è coordinare tutte le azioni necessarie per l'esecuzione di una istruzione o di un insieme di istruzioni (come abbiamo detto in classe coordina gli altri componenti nella corretta esecuzione delle istruzioni)</li>
+	<li>3. **FPU**: "floating point unit" ovvero "unità di calcolo in virgola mobile", il cui compito sono i calcoli matematici in virgola mobile<li>
+	<li>4. **RU**: "register unit" ovvero "unità di registro", il cui compito è memorizzare lo stato in cui si trova la CPU<li>
 	</ul>
       </p>
     </td>
