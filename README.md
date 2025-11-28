@@ -247,5 +247,4 @@
 ## Link utili
  - [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
  - [Fonti alu](https://www.101computing.net/8-bit-alu-using-logic-gates/)
- - []()
 -----
