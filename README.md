@@ -15,7 +15,8 @@
             <li> <b>Elaborazione</b> -> CPU: "central processing unit" ovvero "unità centrale di elaborazione</li>
             <li> <b>Memorizzazione</b> -> MEMORIA CENTRALE: a livello teorico la possiamo indicare così ma nella realtà ci riferiamo alla RAM ("random access memory" ovvero "memoria ad accesso casuale")</li>
             <li> <b>Trasmissione</b> -> Bus: canale di comunicazione che permette a periferiche e componenti di un sistema elettronico di interfacciarsi tra loro scambiandosi informazioni. Il percorso principale è uno ma suddiviso in tre categorie di bus: indirizzi, dati e di controllo.</li>
-        </ul>
+            <li> <b>Comunicazione</b> -> Unità di I/O: permettono l'immissione di informazioni per l'elaborazione e la restituzione dei medesimi o altri elaborati all'operatore</li>
+	</ul>
       </p>
     </td>
     <td>
@@ -31,7 +32,8 @@
   <tr>
     <td>
       <p>
-        Nell'architettura di Von Neumann abbiamo 2 componenti fondamentali:
+        <b>ELABORAZIONE</b>
+	CPU
         <ul>
 	<li><b>ALU</b>: Arithmetic and Logic Unit ovvero unità aritmetico logica, il cui scopo è effettuare i calcoli matematici e logici (matematica boleana)</li>
 	<li><b>CU</b>: Control Unit ovvero unità di controllo, il cui scopo è coordinare tutte le azioni necessarie per l'esecuzione di una istruzione o di un insieme di istruzioni (come abbiamo detto in classe coordina gli altri componenti nella corretta esecuzione delle istruzioni)</li>
@@ -41,7 +43,7 @@
       </p>
     </td>
     <td>
-      <img src="img/alu.bmp" alt="ALU - Jhonny simulator" width="550"/>
+      <img src="img/cpu.bmp" alt="CPU - Jhonny simulator" width="700"/>
     </td>
   </tr>
 </table>
@@ -54,7 +56,8 @@
     <td>
       <p>
 	<UL>
-	<b>RANDOM ACCESS MEMORY</b> 
+	<b>MEMORIZZAZIONE</b>
+	RAM 
 		<li>Memoria ad <b>accesso casuale</b>, definità così perchè il tempo di accesso a ciascuna locazione di memoria, non dipende dalla locazione stessa (in breve il tempo di accesso alle informazioni è sempre il medesimo sia che si trovi nelle prime locazioni che nelle ultime). 
 		Da definizione sappiamo anche essere definita come memoria <b>volatile</b> e questo dipende dal fatto che la capacità di memorizzare informazioni sia fattibile solo se alimentata  
 		<li>Gli indirizzi sono espressi in <b>esadecimale</b> (sul jhonny giocosamente in decimale)</li>
