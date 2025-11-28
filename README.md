@@ -4,6 +4,7 @@
 ### Mi raccomando non sono utili solo questi appunti ma anche gli approfondimenti che vi ho assegnato.
 ## Link utili
 [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
+-----
 <details>
 <summary>Modello di Von Neumann</summary>
 
