@@ -94,7 +94,26 @@
 
 </details>
 <details>
-<summary>TRASMISSIONE</summary>
+<summary>Trasmissione</summary>
+<table>
+  <tr>
+    <td>
+      <p>
+        <ul>
+        <b>BUSww</b> <br>
+        Tramite la quale i dati vengono inseriti nel calcolatore per essere elaborati
+        </ul>
+        <ul>
+        <b>Unità di output</b> <br>
+        Necessaria affinché i dati elaborati possano essere restituiti all'operatore
+        </ul>
+      </p>
+    </td>
+    <td>
+      <img src="img/bus.jpg" alt="bus e il resto del mondo" width="550"/>
+    </td>
+  </tr>
+</table>
 
 </details>
 <details>
