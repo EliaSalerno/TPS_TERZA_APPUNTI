@@ -152,7 +152,7 @@
   <tr>
     <td>
       <li> Alla fine ci siamo resi conto che essendo le tabelle di verità delle porte logiche AND e XOR, probabilmente il circuito finale sarebbe somigliato molto all'immagine a lato</li>
-    <td>
+    </td>
     <td>
       <img src="img/simil_alu_somma.bmp" alt="Simulazione somma" width="700"/>
     </td>
