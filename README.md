@@ -90,7 +90,7 @@
       <li> Con questo metodo ci rendiamo conto che dovendo gestire due fasi (somma e riporto), necessitiamo di due porte logiche</li>
     </td>
     <td>
-      Somma senza riporto
+      Somma senza riporto (XOR)
       <table>
         <tr>
          <td>1</td>
@@ -118,7 +118,7 @@
           <td>0</td>
         </tr>
       </table>
-            Solo riporto
+            Solo riporto (AND)
       <table>
         <tr>
          <td>1</td>
