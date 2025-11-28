@@ -12,9 +12,9 @@
       <p>
         Nell'architettura di Von Neumann abbiamo 2 componenti fondamentali: 
         <ul>
-            <li> **ELABORAZIONE** CPU: "central processing unit" ovvero "unità centrale di elaborazione</li>
-            <li> MEMORIA CENTRALE: a livello teorico la possiamo indicare così ma nella realtà ci riferiamo alla RAM ("random access memory" ovvero "memoria ad accesso casuale")</li>
-            <li>DISPOSITIVI IN INPUT / OUTPUT: a livello teorico si intendono tutti i dospositivi connessi al pc che inviano o ricevono informazioni</li>
+            <li> Elaborazione -> CPU: "central processing unit" ovvero "unità centrale di elaborazione</li>
+            <li> Memorizzazione -> MEMORIA CENTRALE: a livello teorico la possiamo indicare così ma nella realtà ci riferiamo alla RAM ("random access memory" ovvero "memoria ad accesso casuale")</li>
+            <li> Trasmissione -> Bus: il percorso principale è uno ma suddiviso in tre categorie di bus: indirizzi, dati e di controllo.</li>
         </ul>
       </p>
     </td>
