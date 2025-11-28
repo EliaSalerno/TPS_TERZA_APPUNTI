@@ -118,9 +118,7 @@
           <td>0</td>
         </tr>
       </table>
-    </td>
-    <td>
-      Solo riporto
+            Solo riporto
       <table>
         <tr>
          <td>1</td>
