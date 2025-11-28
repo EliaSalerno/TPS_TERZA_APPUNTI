@@ -76,11 +76,11 @@
     <td>
       <p>
         <ul>
-        **Unità di input** <br>
+        <b>Unità di input</b> <br>
         Tramite la quale i dati vengono inseriti nel calcolatore per essere elaborati
         </ul>
 	<ul>
-	**Unità di output** <br>
+	<b>Unità di output</b> <br>
 	Necessaria affinché i dati elaborati possano essere restituiti all'operatore
 	</ul>
       </p>
