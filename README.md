@@ -54,7 +54,7 @@
     </td>
     <td>
         <ul>
-            1101+101
+            1101+101=10010
             <table>
               <tr>
                 <td>1</td>
@@ -83,6 +83,11 @@
               </tr>
             </table>
         </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <li> Con questo metodo ci rendiamo conto che dovendo gestire due fasi (somma e riporto), necessitiamo di due porte logiche</li>
     </td>
   </tr>
 </table>
