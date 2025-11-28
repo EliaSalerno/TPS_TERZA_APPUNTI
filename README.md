@@ -23,6 +23,29 @@
       <img src="img/Neumann.png" alt="Modello" width="550"/>
     </td>
   </tr>
+  
+</table>
+</details>
+<details>
+<summary>Elaborazione</summary>
+
+<table>
+  <tr>
+    <td>
+      <p>
+        <b>CPU</b>
+        <ul>
+	<li><b>ALU</b>: Arithmetic and Logic Unit ovvero unità aritmetico logica, il cui scopo è effettuare i calcoli matematici e logici (matematica boleana)</li>
+	<li><b>CU</b>: Control Unit ovvero unità di controllo, il cui scopo è coordinare tutte le azioni necessarie per l'esecuzione di una istruzione o di un insieme di istruzioni (come abbiamo detto in classe coordina gli altri componenti nella corretta esecuzione delle istruzioni)</li>
+	<li><b>FPU</b>: Floating Point Unit ovvero unità di calcolo in virgola mobile, il cui compito sono i calcoli matematici in virgola mobile</li>
+	<li><b>RU</b>: Register Unit ovvero unità di registro, il cui compito è memorizzare lo stato in cui si trova la CPU</li>
+	</ul>
+      </p>
+    </td>
+    <td>
+      <img src="img/cpu.bmp" alt="CPU - Jhonny simulator" width="700"/>
+    </td>
+  </tr>
   <tr>
     <td>
         <ul>
@@ -49,28 +72,6 @@
               </tr>
             </table>
         </ul>
-    </td>
-  </tr>
-</table>
-</details>
-<details>
-<summary>Elaborazione</summary>
-
-<table>
-  <tr>
-    <td>
-      <p>
-        <b>CPU</b>
-        <ul>
-	<li><b>ALU</b>: Arithmetic and Logic Unit ovvero unità aritmetico logica, il cui scopo è effettuare i calcoli matematici e logici (matematica boleana)</li>
-	<li><b>CU</b>: Control Unit ovvero unità di controllo, il cui scopo è coordinare tutte le azioni necessarie per l'esecuzione di una istruzione o di un insieme di istruzioni (come abbiamo detto in classe coordina gli altri componenti nella corretta esecuzione delle istruzioni)</li>
-	<li><b>FPU</b>: Floating Point Unit ovvero unità di calcolo in virgola mobile, il cui compito sono i calcoli matematici in virgola mobile</li>
-	<li><b>RU</b>: Register Unit ovvero unità di registro, il cui compito è memorizzare lo stato in cui si trova la CPU</li>
-	</ul>
-      </p>
-    </td>
-    <td>
-      <img src="img/cpu.bmp" alt="CPU - Jhonny simulator" width="700"/>
     </td>
   </tr>
 </table>
