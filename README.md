@@ -26,14 +26,13 @@
 </table>
 </details>
 <details>
-<summary>CPU</summary>
+<summary>Elaborazione</summary>
 
 <table>
   <tr>
     <td>
       <p>
-        <b>ELABORAZIONE</b>
-	CPU
+        <b>CPU</b>
         <ul>
 	<li><b>ALU</b>: Arithmetic and Logic Unit ovvero unità aritmetico logica, il cui scopo è effettuare i calcoli matematici e logici (matematica boleana)</li>
 	<li><b>CU</b>: Control Unit ovvero unità di controllo, il cui scopo è coordinare tutte le azioni necessarie per l'esecuzione di una istruzione o di un insieme di istruzioni (come abbiamo detto in classe coordina gli altri componenti nella corretta esecuzione delle istruzioni)</li>
@@ -49,15 +48,14 @@
 </table>
 </details>
 <details>
-<summary>RAM</summary>
+<summary>Memorizzazione</summary>
 
 <table>
   <tr>
     <td>
       <p>
 	<UL>
-	<b>MEMORIZZAZIONE</b>
-	RAM 
+	<b>RAM</b>
 		<li>Memoria ad <b>accesso casuale</b>, definità così perchè il tempo di accesso a ciascuna locazione di memoria, non dipende dalla locazione stessa (in breve il tempo di accesso alle informazioni è sempre il medesimo sia che si trovi nelle prime locazioni che nelle ultime). 
 		Da definizione sappiamo anche essere definita come memoria <b>volatile</b> e questo dipende dal fatto che la capacità di memorizzare informazioni sia fattibile solo se alimentata  
 		<li>Gli indirizzi sono espressi in <b>esadecimale</b> (sul jhonny giocosamente in decimale)</li>
@@ -73,7 +71,7 @@
 	
 </details>
 <details>
-<summary>I/O</summary>
+<summary>COMUNICAZIONE</summary>
 <table>
   <tr>
     <td>
