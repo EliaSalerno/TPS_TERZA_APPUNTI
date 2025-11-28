@@ -16,7 +16,10 @@
             <li> <b>Memorizzazione</b> -> MEMORIA CENTRALE: a livello teorico la possiamo indicare così ma nella realtà ci riferiamo alla RAM ("random access memory" ovvero "memoria ad accesso casuale")</li>
             <li> <b>Trasmissione</b> -> Bus: canale di comunicazione che permette a periferiche e componenti di un sistema elettronico di interfacciarsi tra loro scambiandosi informazioni. Il percorso principale è uno ma suddiviso in tre categorie di bus: indirizzi, dati e di controllo.</li>
             <li> <b>Comunicazione</b> -> Unità di I/O: permettono l'immissione di informazioni per l'elaborazione e la restituzione dei medesimi o altri elaborati all'operatore</li>
-	</ul>
+      	</ul>
+        <ul>
+            <li>prova</li>
+        </ul>
       </p>
     </td>
     <td>
