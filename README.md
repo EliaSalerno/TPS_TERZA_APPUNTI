@@ -2,7 +2,8 @@
 ## Ordino le lezioni con materiale utile per le verifiche
 
 ### Mi raccomando non sono utili solo questi appunti ma anche gli approfondimenti che vi ho assegnato.
-[Visita il mio sito!](http://mceyes.me)
+## Sitografia
+[Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
 <details>
 <summary>Modello di Von Neumann</summary>
 
