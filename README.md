@@ -71,7 +71,7 @@
 	
 </details>
 <details>
-<summary>COMUNICAZIONE</summary>
+<summary>Comunicazione</summary>
 <table>
   <tr>
     <td>
@@ -94,30 +94,30 @@
 
 </details>
 <details>
-<summary>Comunicazione seriale e parallela</summary>
+<summary>TRASMISSIONE</summary>
 
 </details>
 <details>
-<summary> - Funzionamento comunicazione parallela</summary>
+<summary>11</summary>
 
 </details>
 <details>
-<summary> - Funzionamento comunicazione seriale</summary>
+<summary>22</summary>
 
 </details>
 <details>
-<summary>Bus</summary>
+<summary>33</summary>
 
 </details>
 <details>
-<summary>Bus nel pc</summary>
+<summary>44</summary>
 
 </details>
 <details>
-<summary>Esempi di bus</summary>
+<summary>55</summary>
 
 </details>
 <details>
-<summary>Registri MDR, MAR</summary>
+<summary>66</summary>
 
 </details>
