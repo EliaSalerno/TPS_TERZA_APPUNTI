@@ -49,8 +49,25 @@
 <details>
 <summary>RAM</summary>
 
-**RANDOM ACCESS MEMORY** ovvero "memoria ad accesso casuale", definità così perchè il tempo di accesso a ciascuna locazione di memoria, non dipende dalla locazione stessa (in breve il tempo di accesso alle informazioni è sempre il medesimo sia che si trovi nelle prime locazioni che nelle ultime). Da definizione sappiamo anche essere definita come memoria **volatile** e questo dipende dal fatto che la capacità di memorizzare informazioni sia fattibile solo se alimentata  
-
+<table>
+  <tr>
+    <td>
+      <p>
+	<UL>
+	RANDOM ACCESS MEMORY 
+		<li>Memoria ad accesso casuale, definità così perchè il tempo di accesso a ciascuna locazione di memoria, non dipende dalla locazione stessa (in breve il tempo di accesso alle informazioni è sempre il medesimo sia che si trovi nelle prime locazioni che nelle ultime). 
+		Da definizione sappiamo anche essere definita come memoria **volatile** e questo dipende dal fatto che la capacità di memorizzare informazioni sia fattibile solo se alimentata  
+		<li>Gli indirizzi sono espressi in esadecimale (sul jhonny giocosamente in decimale)</li>
+		<li>Può contenere due tipi di informazioni: istruzioni o valori</li>	
+	</ul>
+      </p>
+    </td>
+    <td>
+      <img src="img/ram.bmp" alt="ALU - Jhonny simulator" width="550"/>
+    </td>
+  </tr>
+</table>
+	
 </details>
 <details>
 <summary>I/O</summary>
