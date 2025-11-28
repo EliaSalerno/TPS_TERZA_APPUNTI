@@ -179,6 +179,14 @@
       <img src="img/ram.bmp" alt="RAM - Jhonny simulator" width="550"/>
     </td>
   </tr>
+  <tr>
+    <td>
+      <li> Nel caso della <b>memorizzazione</b> abbiamo parlato del latch sr. Di cosa si tratta, niente popò di meno che dell'unità elementare di memoria</li>
+    </td>
+    <td>
+      <img src="img/latchsr.jpg" alt="RAM - Jhonny simulator" width="550"/>
+    </td>
+  </tr>
 </table>
 	
 </details>
