@@ -17,13 +17,38 @@
             <li> <b>Trasmissione</b> -> Bus: canale di comunicazione che permette a periferiche e componenti di un sistema elettronico di interfacciarsi tra loro scambiandosi informazioni. Il percorso principale è uno ma suddiviso in tre categorie di bus: indirizzi, dati e di controllo.</li>
             <li> <b>Comunicazione</b> -> Unità di I/O: permettono l'immissione di informazioni per l'elaborazione e la restituzione dei medesimi o altri elaborati all'operatore</li>
       	</ul>
-        <ul>
-            <li>prova</li>
-        </ul>
       </p>
     </td>
     <td>
       <img src="img/Neumann.png" alt="Modello" width="550"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <ul>
+            <li> <b>Elaborazione:</b> per simulare un circuito che effettui la somma in aula abbiamo proceduto a ritroso partendo dalla somma tra due numeri espressi in binario, per poi realizzare un circuito "combinatorio"</li>
+        </ul>
+    </td>
+    <td>
+        <ul>
+            1101+101
+            <table>
+              <tr>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>0</td>
+                <td>0</td>
+              </tr><tr>
+                <td>1</td>
+                <td>1</td>
+              </tr><tr>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+            </table>
+        </ul>
     </td>
   </tr>
 </table>
