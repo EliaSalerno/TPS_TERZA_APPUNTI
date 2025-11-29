@@ -182,7 +182,7 @@
   <tr>
     <td>
       <ul>
-        <li> Nel caso della <b>memorizzazione</b> abbiamo parlato del latch sr. Di cosa si tratta, niente popò di meno che dell'unità elementare di memoria</li>
+        <li> Nel caso della <b>memorizzazione</b> abbiamo parlato del latch sr. Di cosa si tratta, niente popò di meno che dell'unità elementare di memoria (se l'immagine è troppo piccola cliccandoci sopra vi apre la directory ove presente il file originale)</li>
       </ul>
     </td>
     <td>
@@ -202,14 +202,11 @@
         <b>Unità di input</b> <br>
         Tramite la quale i dati vengono inseriti nel calcolatore per essere elaborati
         </ul>
-	<ul>
-	<b>Unità di output</b> <br>
-	Necessaria affinché i dati elaborati possano essere restituiti all'operatore
-	</ul>
+        <ul>
+        <b>Unità di output</b> <br>
+        Necessaria affinché i dati elaborati possano essere restituiti all'operatore
+        </ul>
       </p>
-    </td>
-    <td>
-      <img src="img/bus.jpg" alt="bus e il resto del mondo" width="550"/>
     </td>
   </tr>
 </table>
@@ -222,12 +219,10 @@
     <td>
       <p>
         <ul>
-        <b>BUSww</b> <br>
-        Tramite la quale i dati vengono inseriti nel calcolatore per essere elaborati
+          <b>BUS</b> <br>
+          <li>è un canale di comunicazione che permette a periferiche e componenti di un sistema elettronico - come ad esempio un computer - di interfacciarsi tra loro scambiandosi informazioni o dati di vario tipo attraverso la trasmissione e la ricezione di segnali.</li>
         </ul>
         <ul>
-        <b>Unità di output</b> <br>
-        Necessaria affinché i dati elaborati possano essere restituiti all'operatore
         </ul>
       </p>
     </td>
@@ -235,12 +230,30 @@
       <img src="img/bus.jpg" alt="bus e il resto del mondo" width="550"/>
     </td>
   </tr>
+  <tr>
+    <td>
+      <ul>
+        Abbiamo visto due tipi di bus:
+        <li> <b>Seriale</b> </li>
+        <li> <b>Parallelo</b> </li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 </details>
 <details>
-<summary>11</summary>
-
+<summary>Seriale</summary>
+<table>
+  <tr>
+    <td>Nella seriale, abbiamo due tipi di comunicazione: sincrona e asincrona</td>
+    <td>
+      <li>sincrona perchè le due parti della comunicazione sono sincronizzati mediante il clock e non si necessità di prendere i tempi di trasmissione per poter comunicare. </li>
+      <li>asincrona perchè bisogna analizzare il comportamento sulla seriale per comprendere i tempi di trasmissione ed effettuare così la lettura più corretta.</li>      
+      <li></li>
+    </td>
+  </tr>
+</table>
 </details>
 <details>
 <summary>22</summary>
