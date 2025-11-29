@@ -312,7 +312,7 @@
         Mentre i semiconduttori non possono essere vantaggiosamente impiegati in presenza di esposizione a radiazioni ionizzanti, in quanto ne risulterebbero danneggiati, i tubi a vuoto risultano immuni a tali radiazioni.
       </li>
       </li>
-    <td>
+    </td>
     <td>
        <img src="img/vavola_termoionica.png" alt="Valvole all'inizio" width="750"/>
     </td>
