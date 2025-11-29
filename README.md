@@ -43,7 +43,7 @@
       </p>
     </td>
     <td>
-      <img src="img/cpu.bmp" alt="CPU - Jhonny simulator" width="700"/>
+      <img src="img/cpu.jpg" alt="CPU - Jhonny simulator" width="700"/>
     </td>
   </tr>
   <tr>
@@ -154,7 +154,7 @@
       <li> Alla fine ci siamo resi conto che essendo le tabelle di verità delle porte logiche AND e XOR, probabilmente il circuito finale sarebbe somigliato molto all'immagine a lato</li>
     </td>
     <td>
-      <img src="img/simil_alu_somma.bmp" alt="Simulazione somma" width="700"/>
+      <img src="img/simil_alu_somma.jpg" alt="Simulazione somma" width="700"/>
     </td>
   </tr>
 </table>
@@ -176,7 +176,7 @@
       </p>
     </td>
     <td>
-      <img src="img/ram.bmp" alt="RAM - Jhonny simulator" width="550"/>
+      <img src="img/ram.jpg" alt="RAM - Jhonny simulator" width="550"/>
     </td>
   </tr>
   <tr>
@@ -288,3 +288,5 @@
  - [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
  - [Fonti alu](https://www.101computing.net/8-bit-alu-using-logic-gates/)
 -----
+
+[def]: mg/bus.jp
