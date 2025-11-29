@@ -238,7 +238,7 @@
   <tr>
     <td>
       <ul>
-        Abbiamo visto due tipi di bus:
+        Abbiamo visto due tipi di comunicazione:
         <li>Seriale</li>
         <li>Parallelo</li>
       </ul>
