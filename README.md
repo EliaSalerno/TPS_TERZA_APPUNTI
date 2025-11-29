@@ -231,6 +231,9 @@
          <li> <b>Control bus</b> </li> Bus adibito al controllo e coordinamento delle attività del sistema, tramite esso la cpu può decidere quale componente deve scrivere sul data bus in un determinato momento, quale indirizzo leggere ...
       </ul>
     </td>
+    <td>
+      <img src="img/bus.jpg" alt="bus e il resto del mondo" width="550"/>
+    </td>
   </tr>
   <tr>
     <td>
