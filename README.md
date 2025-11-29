@@ -183,6 +183,9 @@
     <td>
       <ul>
         <li> Nel caso della <b>memorizzazione</b> abbiamo parlato del latch sr. Di cosa si tratta, niente popò di meno che dell'unità elementare di memoria (se l'immagine è troppo piccola cliccandoci sopra vi apre la directory ove presente il file originale)</li>
+        <li>
+          Nell'immagine notiamo le 2 "uscite", tra virgolette perchè in realtà è solo una l'uscita importante (<b>Q</b>), ed è quella da cui vengono letti i valori. L'altra uscita (<b>Q negato</b>), è 
+        </li>
       </ul>
     </td>
     <td>
@@ -331,6 +334,7 @@
 ## Link utili
  - [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
  - [Fonti alu](https://www.101computing.net/8-bit-alu-using-logic-gates/)
+ - [Fonte latch](https://www.geeksforgeeks.org/digital-logic/latches-in-digital-logic/?utm_source=chatgpt.com)
  - [Fonti valvole termoioniche](https://it.wikipedia.org/wiki/Valvola_termoionica)
 -----
 
