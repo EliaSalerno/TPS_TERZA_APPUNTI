@@ -2,6 +2,7 @@
 ## Ordino le lezioni con materiale utile per le verifiche
 
 ### Mi raccomando non sono utili solo questi appunti ma anche gli approfondimenti che vi ho assegnato.
+### Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i discorsi fatti in classe anche basati sulle mie esperienze potreste avere sul vostro quaderno più info di quante ne troviate qui
 
 <details>
 <summary>Modello di Von Neumann</summary>
@@ -237,9 +238,19 @@
   <tr>
     <td>
       <ul>
+        Abbiamo visto tre tipi di bus:
+        <li> <b>Data bus</b> </li> Bus ove transitano sia dati che istruzioni, utilizzato da tutti i dispositivi del sistema.
+        <li> <b>Address bus</b> </li> Bus dove transitano indirizzi ove la cpu scrive o legge informazioni.
+        <li> <b>Control bus</b> </li> Bus adibito al controllo e coordinamento delle attività del sistema, tramite esso la cpu può decidere quale componente deve scrivere sul data bus in un determinato momento, quale indirizzo leggere ...
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <ul>
         Abbiamo visto due tipi di bus:
-        <li> <b>Seriale</b> </li>
-        <li> <b>Parallelo</b> </li>
+        <li>Seriale</li>
+        <li>Parallelo</li>
       </ul>
     </td>
   </tr>
@@ -304,7 +315,7 @@
 </table>
 </details>
 <details>
-<summary>Un po' di storia</summary>
+<summary>Un po' di storia - prima parte</summary>
 <table>
   <tr>
     <td>
@@ -324,8 +335,25 @@
 </table>
 </details>
 <details>
-<summary>55</summary>
-
+<summary>Un po' di storia - seconda parte</summary>
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li>
+          <b>TRANSISTOR</b>
+          Il termine transistor è una crasi delle parole inglesi transfer ("trasferimento [di cariche elettriche]") e resistor ("resistore").(cit. wikipedia)
+          Seconda parte della nostra storia in questo repositori ma anche nella realtà in cui viviamo. Anche se qualcuno giustamente potrebbe avere da ridire... potrebbe ammettere che con tutti i cambiamenti avvenuti nella società, pensare che la seconda parte si ancora in corso sia riduttivo. 
+          Comunque bando alle ciance, composto da 3 terminali <b>base, collettore, emettitore</b>, la base controlla il flusso di corrente tra collettore ed emettitore. Entra nel collettore ed esce dall'emettitore (in effetti emette).
+          Parlando di quello di tipo NPN, abbiamo due parti negative ai lati (collettore ed emettitore), e una parte positiva al centro. 
+          <li>
+            Come otteniamo il <b>drogaggio</b>, immettendo un atomo (di boro o fosforo ad esempio), con <b>carica positiva</b> (boro con 3 elettroni quindi uno in meno rispetto al silicio), o <b>carica negativa</b> (fosforo con uno in più rispetto al silicio) nel reticolo del silicio, i cui atomi in fase stabile hanno 4 elettroni ciascuno.
+          </li>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 </details>
 <details>
 <summary>66</summary>
