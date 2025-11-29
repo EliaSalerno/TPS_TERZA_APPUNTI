@@ -250,7 +250,15 @@
     <td>
        - sincrona perchè le due parti della comunicazione sono sincronizzati mediante il clock e non si necessità di prendere i tempi di trasmissione per poter comunicare.
        - asincrona perchè bisogna analizzare il comportamento sulla seriale per comprendere i tempi di trasmissione ed effettuare così la lettura più corretta.     
-      <li></li>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      in classe abbiamo analizzato il possibile comportamento del bus in tutte le suo sfaccettature. (risultati simili al pycoscope)
+      Ebbene si parla di un onda quadra, perciò il risultato sembra essere la merlatura di un castello con la parte alta a 5v e la parte bassa più o meno a zero.
+    </td>
+    <td>
+      <img src="img/onda_quadra_semplice.jpg" alt="bus e il resto del mondo" width="550"/>
     </td>
   </tr>
 </table>
