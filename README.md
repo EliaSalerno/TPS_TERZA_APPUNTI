@@ -248,17 +248,23 @@
   <tr>
     <td>Nella seriale, abbiamo due tipi di comunicazione: sincrona e asincrona</td>
     <td>
-       - sincrona perchè le due parti della comunicazione sono sincronizzati mediante il clock e non si necessità di prendere i tempi di trasmissione per poter comunicare.
-       - asincrona perchè bisogna analizzare il comportamento sulla seriale per comprendere i tempi di trasmissione ed effettuare così la lettura più corretta.     
+       <ul>
+        <li>
+        sincrona perchè le due parti della comunicazione sono sincronizzati mediante il clock e non si necessità di prendere i tempi di trasmissione per poter comunicare.
+        </li>
+        <li>
+        asincrona perchè bisogna analizzare il comportamento sulla seriale per comprendere i tempi di trasmissione ed effettuare così la lettura più corretta.
+        </li>
+      <ul>     
     </td>
   </tr>
   <tr>
     <td>
-      in classe abbiamo analizzato il possibile comportamento del bus in tutte le suo sfaccettature. (risultati simili al pycoscope)
-      Ebbene si parla di un onda quadra, perciò il risultato sembra essere la merlatura di un castello con la parte alta a 5v e la parte bassa più o meno a zero.
+        In classe abbiamo analizzato il possibile comportamento del bus in tutte le suo sfaccettature. (risultati simili al pycoscope)
+        Ebbene si parla di un onda quadra, perciò il risultato sembra essere la merlatura di un castello con la parte alta a 5v e la parte bassa più o meno a zero.
     </td>
     <td>
-      <img src="img/onda_quadra_semplice.jpg" alt="bus e il resto del mondo" width="550"/>
+      <img src="img/onda_quadra.jpg" alt="bus e il resto del mondo" width="450"/>
     </td>
   </tr>
 </table>
