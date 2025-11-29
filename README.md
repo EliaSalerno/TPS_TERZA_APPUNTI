@@ -184,7 +184,8 @@
       <ul>
         <li> Nel caso della <b>memorizzazione</b> abbiamo parlato del latch sr. Di cosa si tratta, niente popò di meno che dell'unità elementare di memoria (se l'immagine è troppo piccola cliccandoci sopra vi apre la directory ove presente il file originale)</li>
         <li>
-          Nell'immagine notiamo le 2 "uscite", tra virgolette perchè in realtà è solo una l'uscita importante (<b>Q</b>), ed è quella da cui vengono letti i valori. L'altra uscita (<b>Q negato</b>), è 
+          Nell'immagine notiamo le 2 "uscite", tra virgolette perchè in realtà è solo una l'uscita importante (<b>Q</b>), ed è quella da cui vengono letti i valori. L'altra uscita (<b>Q negato</b>), indica lo stato memorizzato utile anche per le fasi successive.
+          In realtà serve sia il valore positivo che quello negato per pilotare circuiti digitali senza aggiungere un inverter esterno... ma questo se non lo avete capito no problem -> non ve lo chiedo in verifica tranquilli.
         </li>
       </ul>
     </td>
