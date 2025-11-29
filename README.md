@@ -300,8 +300,21 @@
 </table>
 </details>
 <details>
-<summary>44</summary>
-
+<summary>Un po' di storia</summary>
+<table>
+  <tr>
+    <td>
+      <li><b>Valvole termoioniche</b>: costituita da un involucro in vetro il cui interno è sotto vuoto, all'interno dell'involucro c'è un filamento metallico (<b>catodo</b>) che alimentato diventa incandescente e così facendo emette elettroni, sopra il filamento troviamo una griglia (sempre metallica), collegata dall'esterno agli altri elementi interni; sopra la griglia troviamo un altro elemento metallico che sarebbe l'<b>anodo</b>.
+      <li>
+        Il catodo si surriscalda ed emette elettroni, questi si dirigono verso l'anodo nel caso in cui sia collegato ad una carica opposta al catodo... ma questo solo senza la griglia (la prima versione della valvola termoionica), in realtà il catodo si surriscalda - emette elettroni - questi elettroni vengono intercettati dalla griglia che ha una carica simile a quella dell'anodo ma non eguale
+      </li>
+      </li>
+    <td>
+    <td>
+       <img src="img/vavola_termoionica.png" alt="Valvole all'inizio" width="750"/>
+    </td>
+  </tr>
+</table>
 </details>
 <details>
 <summary>55</summary>
