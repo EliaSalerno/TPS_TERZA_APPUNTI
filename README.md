@@ -50,8 +50,7 @@
   <tr>
     <td>
         <ul>
-            <li> <b>Elaborazione:</b> per simulare un circuito che effettui la somma, in aula abbiamo proceduto a ritroso partendo dalla somma tra due numeri espressi in binario, per poi realizzare un circuito "combinatorio"</li>
-            Ho scritto <b>combinatorio</b> tra virgolette come ora in grassetto appositamente perchè da quello che abbiamo visto in classe la ALU è un circuito combinatorio.
+            <li> <b>Elaborazione:</b> per simulare un circuito che effettui la somma, in aula abbiamo proceduto a ritroso partendo dalla somma tra due numeri espressi in binario, per poi realizzare un circuito combinatorio.</li>
         </ul>
     </td>
     <td>
