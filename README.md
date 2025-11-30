@@ -363,6 +363,7 @@ Buon lavoro.
  - [Fonti alu](https://www.101computing.net/8-bit-alu-using-logic-gates/)
  - [Fonte latch](https://www.geeksforgeeks.org/digital-logic/latches-in-digital-logic/?utm_source=chatgpt.com)
  - [Fonti valvole termoioniche](https://it.wikipedia.org/wiki/Valvola_termoionica)
+ - [Fonti micro... processore e controllore](https://aws.amazon.com/it/compare/the-difference-between-microprocessors-microcontrollers/)
 -----
 
 [def]: mg/bus.jp
