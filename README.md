@@ -349,7 +349,7 @@
 </table>
 </details>
 <details>
-<summary>Una notizia a caso perchè non so più cosa scriverre</summary>
+<summary>Una notizia a caso perchè non so più cosa scrivere</summary>
 
 [link utile per svagare](https://lambertini.net/il-fascino-dellirrilevante-quando-il-nulla-diventa-notizia/)
 
