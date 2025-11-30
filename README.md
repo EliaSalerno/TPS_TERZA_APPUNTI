@@ -11,7 +11,7 @@
   <tr>
     <td>
       <p>
-        Nell'architettura di Von Neumann abbiamo 2 componenti fondamentali: 
+        Nell'architettura di Von Neumann abbiamo possiamo distinguere i componenti in base ai ruoli: 
         <ul>
             <li> <b>Elaborazione</b> -> CPU: "central processing unit" ovvero "unità centrale di elaborazione"</li>
             <li> <b>Memorizzazione</b> -> MEMORIA CENTRALE: a livello teorico la possiamo indicare così ma dal punto di vista pratico è utile pensare alla RAM ("random access memory" ovvero "memoria ad accesso casuale")</li>
