@@ -336,7 +336,7 @@
         <li>
           <b>TRANSISTOR</b>
           Il termine transistor è una crasi delle parole inglesi transfer ("trasferimento [di cariche elettriche]") e resistor ("resistore").(cit. wikipedia)
-          Seconda parte della nostra storia in questo repositori ma anche nella realtà in cui viviamo. Anche se qualcuno giustamente potrebbe avere da ridire... potrebbe ammettere che con tutti i cambiamenti avvenuti nella società, pensare che la seconda parte si ancora in corso sia riduttivo. 
+          Seconda parte della nostra storia in questo repository ma anche nella realtà in cui viviamo. Anche se qualcuno giustamente potrebbe avere da ridire... potrebbe ammettere che con tutti i cambiamenti avvenuti nella società, pensare che la seconda parte sia ancora in corso sia riduttivo. 
           Comunque bando alle ciance, composto da 3 terminali <b>base, collettore, emettitore</b>, la base controlla il flusso di corrente tra collettore ed emettitore. Entra nel collettore ed esce dall'emettitore (in effetti emette).
           Parlando di quello di tipo NPN, abbiamo due parti negative ai lati (collettore ed emettitore), e una parte positiva al centro. 
           <li>
@@ -360,10 +360,11 @@ Buon lavoro.
 
 ## Link utili
  - [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
- - [Fonti alu](https://www.101computing.net/8-bit-alu-using-logic-gates/)
+ - [Fonti alu ... ancora](https://www.101computing.net/8-bit-alu-using-logic-gates/)
  - [Fonte latch](https://www.geeksforgeeks.org/digital-logic/latches-in-digital-logic/?utm_source=chatgpt.com)
  - [Fonti valvole termoioniche](https://it.wikipedia.org/wiki/Valvola_termoionica)
  - [Fonti micro... processore e controllore](https://aws.amazon.com/it/compare/the-difference-between-microprocessors-microcontrollers/)
+ - [Fonte delle fonti](www.google.it)
 -----
 
 [def]: mg/bus.jp
