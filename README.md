@@ -364,7 +364,7 @@ Buon lavoro.
  - [Fonte latch](https://www.geeksforgeeks.org/digital-logic/latches-in-digital-logic/?utm_source=chatgpt.com)
  - [Fonti valvole termoioniche](https://it.wikipedia.org/wiki/Valvola_termoionica)
  - [Fonti micro... processore e controllore](https://aws.amazon.com/it/compare/the-difference-between-microprocessors-microcontrollers/)
- - [Fonte delle fonti](www.google.it)
+ - [Fonte delle fonti](https://www.google.it)
 -----
 
 [def]: mg/bus.jp
