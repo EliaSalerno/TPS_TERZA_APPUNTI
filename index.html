@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appunti TPS Terza</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Appunti TPS Terza</h1>
+        <p class="subtitle">Clicca sulle card per visualizzare gli approfondimenti</p>
+    </header>
+
+    <main class="grid-container">
+        <!-- Card 1: Modello di Von Neumann -->
+        <article class="card" data-content-id="content-neumann">
+            <div class="card-image-container">
+                <img src="img/Neumann.png" alt="Modello di Von Neumann">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Modello di Von Neumann</h2>
+            </div>
+        </article>
+
+        <!-- Card 2: Elaborazione -->
+        <article class="card" data-content-id="content-cpu">
+            <div class="card-image-container">
+                <img src="img/cpu.jpg" alt="CPU">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Elaborazione</h2>
+            </div>
+        </article>
+
+        <!-- Card 3: Memorizzazione -->
+        <article class="card" data-content-id="content-ram">
+            <div class="card-image-container">
+                <img src="img/ram.jpg" alt="RAM">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Memorizzazione</h2>
+            </div>
+        </article>
+
+        <!-- Card 4: Comunicazione -->
+        <article class="card" data-content-id="content-io">
+            <div class="card-image-container">
+                <div class="placeholder-icon">I/O</div>
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Comunicazione</h2>
+            </div>
+        </article>
+
+        <!-- Card 5: Trasmissione -->
+        <article class="card" data-content-id="content-bus">
+            <div class="card-image-container">
+                <img src="img/bus.jpg" alt="Bus">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Trasmissione</h2>
+            </div>
+        </article>
+
+        <!-- Card 6: Seriale -->
+        <article class="card" data-content-id="content-serial">
+            <div class="card-image-container">
+                <img src="img/onda_quadra.jpg" alt="Seriale">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Seriale</h2>
+            </div>
+        </article>
+
+        <!-- Card 7: Parallela -->
+        <article class="card" data-content-id="content-parallel">
+            <div class="card-image-container">
+                <img src="img/parallela.jpg" alt="Parallela">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Parallela</h2>
+            </div>
+        </article>
+
+        <!-- Card 8: I2C - IIC -->
+        <article class="card" data-content-id="content-i2c">
+            <div class="card-image-container">
+                <img src="img/i2c.png" alt="I2C">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">I2C - IIC</h2>
+            </div>
+        </article>
+
+        <!-- Card 9: Storia - Parte 1 -->
+        <article class="card" data-content-id="content-history1">
+            <div class="card-image-container">
+                <img src="img/vavola_termoionica.png" alt="Valvole Termoioniche">
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Storia - Valvole</h2>
+            </div>
+        </article>
+
+        <!-- Card 10: Storia - Parte 2 -->
+        <article class="card" data-content-id="content-history2">
+            <div class="card-image-container">
+                <div class="placeholder-icon">TR</div>
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Storia - Transistor</h2>
+            </div>
+        </article>
+
+        <!-- Card 11: Notizia -->
+        <article class="card" data-content-id="content-news">
+            <div class="card-image-container">
+                <div class="placeholder-icon">?</div>
+            </div>
+            <div class="card-content">
+                <h2 class="card-title">Notizia a caso</h2>
+            </div>
+        </article>
+    </main>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">Titolo</h2>
+                <button class="close-button" id="closeButton">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Content Sources -->
+    <div style="display: none;">
+
+        <div id="content-neumann">
+            <p>Nell'architettura di Von Neumann abbiamo 2 componenti fondamentali:</p>
+            <ul>
+                <li><b>Elaborazione</b> -> CPU: "central processing unit" ovvero "unità centrale di elaborazione"</li>
+                <li><b>Memorizzazione</b> -> MEMORIA CENTRALE: a livello teorico la possiamo indicare così ma dal punto
+                    di vista pratico è utile pensare alla RAM ("random access memory" ovvero "memoria ad accesso
+                    casuale")</li>
+                <li><b>Trasmissione</b> -> Bus: canale di comunicazione che permette a periferiche e componenti di un
+                    sistema elettronico di interfacciarsi tra loro scambiandosi informazioni. Il percorso principale è
+                    uno ma suddiviso in tre categorie di bus: indirizzi, dati e di controllo.</li>
+                <li><b>Comunicazione</b> -> Unità di I/O: permettono l'immissione di informazioni per l'elaborazione e
+                    la restituzione dei medesimi o altri elaborati all'operatore</li>
+            </ul>
+            <img src="img/Neumann.png" alt="Modello di Von Neumann">
+        </div>
+
+        <div id="content-cpu">
+            <p><b>CPU</b></p>
+            <ul>
+                <li><b>ALU</b>: Arithmetic and Logic Unit ovvero unità aritmetico logica, il cui scopo è effettuare i
+                    calcoli matematici e logici (matematica boleana)</li>
+                <li><b>CU</b>: Control Unit ovvero unità di controllo, il cui scopo è coordinare tutte le azioni
+                    necessarie per l'esecuzione di una istruzione o di un insieme di istruzioni</li>
+                <li><b>FPU</b>: Floating Point Unit ovvero unità di calcolo in virgola mobile</li>
+                <li><b>RU</b>: Register Unit ovvero unità di registro, il cui compito è memorizzare lo stato in cui si
+                    trova la CPU</li>
+            </ul>
+            <img src="img/cpu.jpg" alt="CPU - Jhonny simulator">
+            <hr>
+            <p><b>Esempio Somma Binaria:</b> 1101 + 101 = 10010</p>
+            <p>Per simulare un circuito che effettui la somma, in aula abbiamo proceduto a ritroso partendo dalla somma
+                tra due numeri espressi in binario, per poi realizzare un circuito combinatorio.</p>
+            <img src="img/simil_alu_somma.jpg" alt="Simulazione somma">
+        </div>
+
+        <div id="content-ram">
+            <p><b>RAM</b></p>
+            <ul>
+                <li>Memoria ad <b>accesso casuale</b>, definità così perchè il tempo di accesso a ciascuna locazione di
+                    memoria, non dipende dalla locazione stessa.</li>
+                <li>Memoria <b>volatile</b>: la capacità di memorizzare informazioni è fattibile solo se alimentata.
+                </li>
+                <li>Gli indirizzi sono espressi in <b>esadecimale</b>.</li>
+                <li>Può contenere due tipi di informazioni: <b>istruzioni</b> o <b>valori</b>.</li>
+            </ul>
+            <img src="img/ram.jpg" alt="RAM">
+            <hr>
+            <p><b>Latch SR</b></p>
+            <p>Unità elementare di memoria. L'uscita (<b>Q</b>) è quella da cui vengono letti i valori. L'altra uscita
+                (<b>Q negato</b>), indica lo stato memorizzato utile anche per le fasi successive.</p>
+            <img src="img/latchsr.jpg" alt="Latch SR">
+        </div>
+
+        <div id="content-io">
+            <ul>
+                <li><b>Unità di input</b><br>Tramite la quale i dati vengono inseriti nel calcolatore per essere
+                    elaborati</li>
+                <li><b>Unità di output</b><br>Necessaria affinché i dati elaborati possano essere restituiti
+                    all'operatore</li>
+            </ul>
+        </div>
+
+        <div id="content-bus">
+            <p><b>BUS</b></p>
+            <p>Canale di comunicazione che permette a periferiche e componenti di un sistema elettronico di
+                interfacciarsi tra loro scambiandosi informazioni.</p>
+            <ul>
+                <li><b>Data bus</b>: Bus ove transitano sia dati che istruzioni, utilizzato da tutti i dispositivi del
+                    sistema.</li>
+                <li><b>Address bus</b>: Bus dove transitano indirizzi ove la cpu scrive o legge informazioni.</li>
+                <li><b>Control bus</b>: Bus adibito al controllo e coordinamento delle attività del sistema.</li>
+            </ul>
+            <img src="img/bus.jpg" alt="Bus">
+            <p>Abbiamo visto due tipi di comunicazione: Seriale e Parallelo.</p>
+        </div>
+
+        <div id="content-serial">
+            <p>Nella seriale, abbiamo due tipi di comunicazione: sincrona e asincrona</p>
+            <ul>
+                <li><b>Sincrona</b>: le due parti della comunicazione sono sincronizzati mediante il <b>clock</b>.</li>
+                <li><b>Asincrona</b>: bisogna analizzare il comportamento sulla seriale per comprendere i tempi di
+                    trasmissione (bit di start, bit di stop).</li>
+            </ul>
+            <p>Segnale onda quadra: Alto (5v) = 1, Basso (0v) = 0.</p>
+            <img src="img/onda_quadra.jpg" alt="Onda Quadra">
+        </div>
+
+        <div id="content-parallel">
+            <p>Per brevi distanze e basse frequenze, la comunicazione parallela è <b>veloce</b> perché più bit
+                trasmettono <b>contemporaneamente</b>.</p>
+            <p>Problemi su lunghe distanze:</p>
+            <ul>
+                <li><b>Crosstalk</b>: interferenze tra canali adiacenti.</li>
+                <li>Imperfezioni nella <b>struttura cristallina</b> del metallo che possono causare problemi su lunghe
+                    distanze.</li>
+            </ul>
+            <img src="img/parallela.jpg" alt="Parallela">
+        </div>
+
+        <div id="content-i2c">
+            <p>Comunicazione standard in arduino ma non solo, sfrutta una connessione <b>sincrona</b> quindi dotata di
+                <b>SCL</b> (serial clock).</p>
+            <p>Essendo una seriale la transizione dei dati avviene su di un unico tracciato <b>SDA</b> (serial data).
+            </p>
+            <p>La comunicazione è gestita dal <b>master</b> verso un determinato <b>slave</b> identificato da un
+                indirizzo.</p>
+            <img src="img/i2c.png" alt="Protocollo I2C">
+        </div>
+
+        <div id="content-history1">
+            <p><b>Valvole termoioniche</b></p>
+            <p>Costituita da un involucro in vetro sotto vuoto. All'interno c'è un filamento metallico (<b>catodo</b>)
+                che emette elettroni, una griglia, e l'<b>anodo</b>.</p>
+            <p>Il catodo emette elettroni che vengono intercettati dalla griglia e transitano verso l'anodo se le
+                cariche lo permettono.</p>
+            <p>Sono ancora usate in amplificatori per strumenti e dispositivi audio ad "alta fedeltà" perché immuni a
+                radiazioni ionizzanti e capaci di gestire alte potenze.</p>
+            <img src="img/vavola_termoionica.png" alt="Valvola Termoionica">
+        </div>
+
+        <div id="content-history2">
+            <p><b>TRANSISTOR</b></p>
+            <p>Termine che deriva da "transfer" e "resistor".</p>
+            <p>Composto da 3 terminali: <b>base, collettore, emettitore</b>. La base controlla il flusso di corrente tra
+                collettore ed emettitore.</p>
+            <p><b>Drogaggio</b>: immettere un atomo (di boro o fosforo) nel reticolo del silicio per creare una carica
+                positiva o negativa.</p>
+        </div>
+
+        <div id="content-news">
+            <p><a href="https://lambertini.net/il-fascino-dellirrilevante-quando-il-nulla-diventa-notizia/"
+                    target="_blank">Link utile per svagare</a></p>
+            <p>Nota sul simulatore Jhonny: serve per avvicinarsi al mondo PC con ottica pratica. Non è perfetto ma è un
+                gioco educativo potente.</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
