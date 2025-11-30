@@ -310,16 +310,17 @@
 <details>
 <summary>Un po' di storia - prima parte</summary>
 <table>
+      <li><b>Valvole termoioniche</b>: costituita da un involucro in vetro il cui interno è sotto vuoto, all'interno dell'involucro c'è un filamento metallico (<b>catodo</b>) che alimentato diventa incandescente e così facendo emette elettroni, sopra il filamento troviamo una griglia (sempre metallica), collegata dall'esterno agli altri elementi interni; sopra la griglia troviamo un altro elemento metallico che sarebbe l'<b>anodo</b>.
   <tr>
     <td>
-      <li><b>Valvole termoioniche</b>: costituita da un involucro in vetro il cui interno è sotto vuoto, all'interno dell'involucro c'è un filamento metallico (<b>catodo</b>) che alimentato diventa incandescente e così facendo emette elettroni, sopra il filamento troviamo una griglia (sempre metallica), collegata dall'esterno agli altri elementi interni; sopra la griglia troviamo un altro elemento metallico che sarebbe l'<b>anodo</b>.
-      <li>
-        Il catodo si surriscalda ed emette elettroni, questi si dirigono verso l'anodo nel caso in cui sia collegato ad una carica opposta al catodo... ma questo solo senza la griglia (la <b>prima versione</b> della valvola termoionica), in realtà:<br> - il catodo si surriscalda ed emette elettroni<br> - questi elettroni vengono intercettati dalla griglia<br> --- se ha una carica simile a quella dell'anodo ma non eguale transitano verso l'anodo amplificati<br> --- se invece hanno una carica simile a quella del catodo vengono rispediti al mittente che li rifiuta ecc. ecc..<br><br>
-        Per effetto dell'amplificazione sopra descritta non sono completamente in disuso o "deprecati", restano gli unici mezzi per amplificare segnali a frequenze elevate con potenze dell'ordine del kilowatt o superiori.
-        Sono ancora usate in amplificatori per strumenti, attrezzature per produzioni musicali e in dispositivi audio ad "alta fedeltà".
-        Mentre i semiconduttori non possono essere vantaggiosamente impiegati in presenza di esposizione a radiazioni ionizzanti, in quanto ne risulterebbero danneggiati, i tubi a vuoto risultano immuni a tali radiazioni.
-      </li>
-      </li>
+      <ul>
+        <li>
+          Il catodo si surriscalda ed emette elettroni, questi si dirigono verso l'anodo nel caso in cui sia collegato ad una carica opposta al catodo... ma questo solo senza la griglia (la <b>prima versione</b> della valvola termoionica), in realtà:<br> - il catodo si surriscalda ed emette elettroni<br> - questi elettroni vengono intercettati dalla griglia<br> --- se ha una carica simile a quella dell'anodo ma non eguale transitano verso l'anodo amplificati<br> --- se invece hanno una carica simile a quella del catodo vengono rispediti al mittente che li rifiuta ecc. ecc..<br><br>
+         Per effetto dell'amplificazione sopra descritta non sono completamente in disuso o "deprecati", restano gli unici mezzi per amplificare segnali a frequenze elevate con potenze dell'ordine del kilowatt o superiori.
+         Sono ancora usate in amplificatori per strumenti, attrezzature per produzioni musicali e in dispositivi audio ad "alta fedeltà".
+         Mentre i semiconduttori non possono essere vantaggiosamente impiegati in presenza di esposizione a radiazioni ionizzanti, in quanto ne risulterebbero danneggiati, i tubi a vuoto risultano immuni a tali radiazioni.
+        </li>
+      </ul>
     </td>
     <td>
        <img src="img/vavola_termoionica.png" alt="Valvole all'inizio" width="750"/>
