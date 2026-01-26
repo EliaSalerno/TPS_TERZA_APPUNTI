@@ -357,7 +357,33 @@ Termino così non perchè non possa avere altro da dire ma solo perchè ad ora n
 Per quanto riguarda il Jhonny non mi interessa sapere se sapete programmare ma solo se sapete riconoscere ciò che avete studiato in teoria. Niente di più niente di meno. Jhonny è un gioco educativo potente. Ma la sua logica non è perfetta. Ha il solo scopo di avvicinarvi al mondo del pc con un'ottica più pratica. A lezione vi ho spiegato il funzionamento, e quello che lo differenzia dalla realtà e sono per ora le uniche cose che mi interessano. Comprendo che per fare codice in jhonny siano necessari molti più esercizi pratici, ma penso che essendo un gioco educativo impegnarsi troppo a stare dietro a questo sarebbe oltremodo inutile. Anche perchè all'atto pratico cosa vi rimane? L'esperienza di una programmazione in un simulatore? No nel pentamestre vi faccio fare qualcosa che da un risultato ed è in qualche modo spendibile. 
 Buon lavoro. 
 </details>
-
+<details>
+  <summary>Automa a stati finiti - ASF</summary>
+  <table>
+    <tr>
+      <td>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>ASF deterministico di Moore</summary>
+  <table>
+    <tr>
+      <td>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>ASF deterministico di Mealy</summary>
+  <table>
+    <tr>
+      <td>
+      </td>
+    </tr>
+  </table>
+</details>
 ## Link utili
  - [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
  - [Fonti alu ... ancora](https://www.101computing.net/8-bit-alu-using-logic-gates/)
