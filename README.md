@@ -380,29 +380,29 @@ Buon lavoro.
 </details>
 <details>
   <summary><font face="Verdana">Automa a stati finiti - ASF</font></summary>
-  <table style="border: 0px white">
+  <table>
     <tr>
       <td>
         <p>Un automa a stati finiti è il <b>modello matematico</b> di un sistema con input e output discreti. Il sistema può trovarsi in n configurazioni definite <b>STATI</b><br>
          In un ASF, la conoscenza dello stato in cui si trova  il sistema è necessaria per determinare il comportamento del sistema a fronte di input successivi.<br></p>
       </td>
     </tr>
-  </table>
-  <table>
     <tr>
-      <td width="200">
-      </td>
-      <td align="center">
-        <h3>Definizione formale:</h3> Un ASF e una quintupla (Q, Σ, Δ, δ, q<sub>0</sub>)<br>
-         Q: come insieme degli stati;<br>
-         Σ: come alfabeto di input;<br>
-         Δ: come set di stati finali<br>
-         δ: Q x Σ -> Q (funzione di transizione)<br>
-         Δ: set di stati finali, o di accettazione ΔcQ<br>
-      </td>
-      <td>
-        <img src="automi.jpg" alt="Esempio jflap" width="200">
-      </td>
+      <table align="center" widht="100%">
+        <tr>
+          <td>
+            <h3>Definizione formale:</h3> Un ASF e una quintupla (Q, Σ, Δ, δ, q<sub>0</sub>)<br>
+            Q: come insieme degli stati;<br>
+            Σ: come alfabeto di input;<br>
+            Δ: come set di stati finali<br>
+            δ: Q x Σ -> Q (funzione di transizione)<br>
+            Δ: set di stati finali, o di accettazione ΔcQ<br>
+          </td>
+          <td>
+            <img src="automi.jpg" alt="Esempio jflap" width="200">
+          </td>
+        </tr>
+      </table>
     </tr>
   </table>
   <table>
