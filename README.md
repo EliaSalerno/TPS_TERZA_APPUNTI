@@ -1,11 +1,10 @@
-# Indice lezioni
-## Ordino le lezioni con materiale utile per le verifiche
-
-### Mi raccomando non sono utili solo questi appunti ma anche gli approfondimenti che vi ho assegnato.
-### Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i discorsi fatti in classe anche basati sulle mie esperienze potreste avere sul vostro quaderno più info di quante ne troviate qui
+# Appunti di terza "TPS"
+Ordino le lezioni con materiale utile per le verifiche<br>
+Mi raccomando non sono utili solo questi appunti ma anche gli approfondimenti che vi ho assegnato.<br>
+Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i discorsi fatti in classe anche basati sulle mie esperienze potreste avere sul vostro quaderno più info di quante ne troviate qui
 
 <details>
-<summary>Modello di Von Neumann</summary>
+<summary><font face="Verdana">Modello di Von Neumann</font></summary>
 
 <table>
   <tr>
@@ -28,7 +27,7 @@
 </table>
 </details>
 <details>
-<summary>Elaborazione</summary>
+<summary><font face="Verdana">Elaborazione</font></summary>
 
 <table>
   <tr>
@@ -164,7 +163,7 @@
 </table>
 </details>
 <details>
-<summary>Memorizzazione</summary>
+<summary><font face="Verdana">Memorizzazione</font></summary>
 
 <table>
   <tr>
@@ -201,7 +200,7 @@
 	
 </details>
 <details>
-<summary>Comunicazione</summary>
+<summary><font face="Verdana">Comunicazione</font></summary>
 <table>
   <tr>
     <td>
@@ -221,7 +220,7 @@
 
 </details>
 <details>
-<summary>Trasmissione</summary>
+<summary><font face="Verdana">Trasmissione</font></summary>
 <table>
   <tr>
     <td>
@@ -251,7 +250,7 @@
 
 </details>
 <details>
-<summary>Seriale</summary>
+<summary><font face="Verdana">Seriale</font></summary>
 <table>
   <tr>
     <td>Nella seriale, abbiamo due tipi di comunicazione: sincrona e asincrona</td>
@@ -278,7 +277,7 @@
 </table>
 </details>
 <details>
-<summary>Parallela</summary>
+<summary><font face="Verdana">Parallela</font></summary>
 <table>
   <tr>
     <td>
@@ -293,7 +292,7 @@
 
 </details>
 <details>
-<summary>I2C - IIC</summary>
+<summary><font face="Verdana">I2C - IIC</font></summary>
 <table>
   <tr>
     <td>
@@ -308,7 +307,29 @@
 </table>
 </details>
 <details>
-<summary>Un po' di storia - prima parte</summary>
+  <summary><font face="Verdana">SPI (non trattato in classe)</font></summary>
+  <table>
+    <tr>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary><font face="Verdana">UART (non trattato in classe)</font></summary>
+  <table>
+    <tr>
+      <td>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+<summary><font face="Verdana">Un po' di storia - prima parte</font></summary>
 <table>
       
   <tr>
@@ -328,7 +349,7 @@
 </table>
 </details>
 <details>
-<summary>Un po' di storia - seconda parte</summary>
+<summary><font face="Verdana">Un po' di storia - seconda parte</font></summary>
 <table>
   <tr>
     <td>
@@ -349,7 +370,7 @@
 </table>
 </details>
 <details>
-<summary>Una notizia a caso perchè non so più cosa scrivere</summary>
+<summary><font face="Verdana">Una notizia a caso perchè non so più cosa scrivere</font></summary>
 
 [link utile per svagare](https://lambertini.net/il-fascino-dellirrilevante-quando-il-nulla-diventa-notizia/)
 
@@ -358,7 +379,35 @@ Per quanto riguarda il Jhonny non mi interessa sapere se sapete programmare ma s
 Buon lavoro. 
 </details>
 <details>
-  <summary>Automa a stati finiti - ASF</summary>
+  <summary><font face="Verdana">Automa a stati finiti - ASF</font></summary>
+  <table>
+    <tr>
+      <td>
+        <p> - Un automa a stati finiti è il <b>modello matematico</b> di<br> un sistema con input e output discreti.<br> Il sistema può trovarsi in n configurazioni definite <b>STATI</b><br>
+         - In un ASF, la conoscenza dello stato in cui si trova <br> il sistema è necessaria per determinare <br>il comportamento del sistema a fronte di input successivi.<br></p>
+      </td>
+      <td>
+        <h3>Definizione formale:</h3> Un ASF e una quintupla (Q, Σ, Δ, δ, q<sub>0</sub>)
+         <ul>
+          <li>Q: come insieme degli stati;</li>
+          <li>Σ: come alfabeto di input;</li>
+          <li>Δ: come set di stati finali</li>
+          <li>δ: Q x Σ -> Q (funzione di transizione)</li>
+          <li>Δ: set di stati finali, o di accettazione ΔcQ</li>
+        <ul>
+      </td>
+    </tr>
+    <tr>
+      <td><p>Il comportamento di un ASF può essere rappresentato <br>mediante un grafo, in cui gli archi<br> rappresentano le transizioni fra stati, i nodi, denotati da <br>cerchi, rappresentano gli stati.<br> Gli stati finali sono evidenziati da cerchi doppi.<br>
+      I simboli sugli archi sono gli input del sistema, ed appartengono<br> all'alfabeto Σ</p>
+      </td>
+      <td><p>Il comportamento di un circuito sequenziale può essere <br>modellato mediante un particolare <br>tipo di automi a stati finit</p>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary><font face="Verdana">ASF deterministico di Moore</font></summary>
   <table>
     <tr>
       <td>
@@ -367,7 +416,7 @@ Buon lavoro.
   </table>
 </details>
 <details>
-  <summary>ASF deterministico di Moore</summary>
+  <summary><font face="Verdana">ASF deterministico di Mealy</font></summary>
   <table>
     <tr>
       <td>
@@ -375,16 +424,9 @@ Buon lavoro.
     </tr>
   </table>
 </details>
-<details>
-  <summary>ASF deterministico di Mealy</summary>
-  <table>
-    <tr>
-      <td>
-      </td>
-    </tr>
-  </table>
-</details>
+
 ## Link utili
+
  - [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
  - [Fonti alu ... ancora](https://www.101computing.net/8-bit-alu-using-logic-gates/)
  - [Fonte latch](https://www.geeksforgeeks.org/digital-logic/latches-in-digital-logic/?utm_source=chatgpt.com)
