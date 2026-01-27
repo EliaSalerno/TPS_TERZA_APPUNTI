@@ -380,28 +380,36 @@ Buon lavoro.
 </details>
 <details>
   <summary><font face="Verdana">Automa a stati finiti - ASF</font></summary>
-  <table>
+  <table border="2px">
     <tr>
       <td>
-        <p> - Un automa a stati finiti è il <b>modello matematico</b> di<br> un sistema con input e output discreti.<br> Il sistema può trovarsi in n configurazioni definite <b>STATI</b><br>
-         - In un ASF, la conoscenza dello stato in cui si trova <br> il sistema è necessaria per determinare <br>il comportamento del sistema a fronte di input successivi.<br></p>
-      </td>
-      <td>
-        <h3>Definizione formale:</h3> Un ASF e una quintupla (Q, Σ, Δ, δ, q<sub>0</sub>)
-         <ul>
-          <li>Q: come insieme degli stati;</li>
-          <li>Σ: come alfabeto di input;</li>
-          <li>Δ: come set di stati finali</li>
-          <li>δ: Q x Σ -> Q (funzione di transizione)</li>
-          <li>Δ: set di stati finali, o di accettazione ΔcQ</li>
-        <ul>
+        <p>Un automa a stati finiti è il <b>modello matematico</b> di un sistema con input e output discreti. Il sistema può trovarsi in n configurazioni definite <b>STATI</b><br>
+         In un ASF, la conoscenza dello stato in cui si trova  il sistema è necessaria per determinare il comportamento del sistema a fronte di input successivi.<br></p>
       </td>
     </tr>
+  </table>
+  <table>
     <tr>
-      <td><p>Il comportamento di un ASF può essere rappresentato <br>mediante un grafo, in cui gli archi<br> rappresentano le transizioni fra stati, i nodi, denotati da <br>cerchi, rappresentano gli stati.<br> Gli stati finali sono evidenziati da cerchi doppi.<br>
-      I simboli sugli archi sono gli input del sistema, ed appartengono<br> all'alfabeto Σ</p>
+      <td width="200">
       </td>
-      <td><p>Il comportamento di un circuito sequenziale può essere <br>modellato mediante un particolare <br>tipo di automi a stati finit</p>
+      <td align="center">
+        <h3>Definizione formale:</h3> Un ASF e una quintupla (Q, Σ, Δ, δ, q<sub>0</sub>)<br>
+         Q: come insieme degli stati;<br>
+         Σ: come alfabeto di input;<br>
+         Δ: come set di stati finali<br>
+         δ: Q x Σ -> Q (funzione di transizione)<br>
+         Δ: set di stati finali, o di accettazione ΔcQ<br>
+      </td>
+      <td>
+        <img src="automi.jpg" alt="Esempio jflap" width="200">
+      </td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td><p>Il comportamento di un ASF può essere rappresentato mediante un grafo, in cui gli archi rappresentano le transizioni fra stati, i nodi, denotati da cerchi, rappresentano gli stati. Gli stati finali sono evidenziati da cerchi doppi.<br>
+      I simboli sugli archi sono gli input del sistema, ed appartengono all'alfabeto Σ.</p>
+      <p>Il comportamento di un circuito sequenziale può essere modellato mediante un particolare tipo di automi a stati finiti: <b>gli automi deterministici con output</b>.<br> Questi automi vengono chiamati macchine di Moore o di Mealy., a seconda che l'output sia associato agli stati, o alle transizioni fra stati.</p>
       </td>
     </tr>
   </table>
