@@ -380,7 +380,7 @@ Buon lavoro.
 </details>
 <details>
   <summary><font face="Verdana">Automa a stati finiti - ASF</font></summary>
-  <table border="0px">
+  <table style="border: 0px white">
     <tr>
       <td>
         <p>Un automa a stati finiti è il <b>modello matematico</b> di un sistema con input e output discreti. Il sistema può trovarsi in n configurazioni definite <b>STATI</b><br>
