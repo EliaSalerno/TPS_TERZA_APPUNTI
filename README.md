@@ -3,9 +3,9 @@ Ordino le lezioni con materiale utile per le verifiche<br>
 Mi raccomando non sono utili solo questi appunti ma anche gli approfondimenti che vi ho assegnato.<br>
 Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i discorsi fatti in classe anche basati sulle mie esperienze potreste avere sul vostro quaderno più info di quante ne troviate qui
 
+## TRIMESTRE
 <details>
 <summary><font face="Verdana">Modello di Von Neumann</font></summary>
-
 <table>
   <tr>
     <td>
@@ -28,7 +28,6 @@ Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i disc
 </details>
 <details>
 <summary><font face="Verdana">Elaborazione</font></summary>
-
 <table>
   <tr>
     <td>
@@ -307,19 +306,20 @@ Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i disc
 </table>
 </details>
 <details>
-  <summary><font face="Verdana">SPI (non trattato in classe)</font></summary>
+  <summary><font face="Verdana">SPI (Serial Peripheral Interface) - NTC</font></summary>
   <table>
     <tr>
       <td>
-	<b>SPI (SERIAL PERIPHERAL INTERFACE)</b><br>
-	Bus standard di comunicazione seriale tra un microcontrollore e altri circuiti integrati o più micontrollori.
-	E' una connessione:
-	1. Sincrona: il master emette il segnale di  clock (SCLK - SCK);
-	2. Seriale: la transizione dei messaggi avviene in modalità seriale;
-	3. Full-duplex: colloquio in entrambe i sensi:
-	   - SDI - MISO - SOMI - DI - SO (Serial Data Input, Master Input Slave Output -> Dallo slave al master);
-	   - SDO - MOSI - SIMO - DO - SI (Serial Data Output, Master Output Slave Input -> Dal master allo slave);
-	4. Inoltre dispone di un canale facoltativo: CS - SS - nCS - nSS -STE (Chip Select / Slave Select). Su questo canale transita un segnale emesso dal master per scegliere con quale slave vuole comunicare.
+        Bus standard di comunicazione seriale tra un microcontrollore e altri circuiti integrati o più micontrollori.
+        E' una connessione:
+        <ul>
+          <li>Sincrona: il master emette il segnale di  clock (SCLK - SCK);</li>
+          <li>Seriale: la transizione dei messaggi avviene in modalità seriale;</li>
+          <li>Full-duplex: colloquio in entrambe i sensi:</li>
+            - SDI - MISO - SOMI - DI - SO (Serial Data Input, Master Input Slave Output -> Dallo slave al master);<br>
+            - SDO - MOSI - SIMO - DO - SI (Serial Data Output, Master Output Slave Input -> Dal master allo slave);
+          <li>Inoltre dispone di un canale facoltativo: CS - SS - nCS - nSS -STE (Chip Select / Slave Select). Su questo canale transita un segnale emesso dal master per scegliere con quale slave vuole comunicare.</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -429,6 +429,8 @@ Termino così non perchè non possa avere altro da dire ma solo perchè ad ora n
 Per quanto riguarda il Jhonny non mi interessa sapere se sapete programmare ma solo se sapete riconoscere ciò che avete studiato in teoria. Niente di più niente di meno. Jhonny è un gioco educativo potente. Ma la sua logica non è perfetta. Ha il solo scopo di avvicinarvi al mondo del pc con un'ottica più pratica. A lezione vi ho spiegato il funzionamento, e quello che lo differenzia dalla realtà e sono per ora le uniche cose che mi interessano. Comprendo che per fare codice in jhonny siano necessari molti più esercizi pratici, ma penso che essendo un gioco educativo impegnarsi troppo a stare dietro a questo sarebbe oltremodo inutile. Anche perchè all'atto pratico cosa vi rimane? L'esperienza di una programmazione in un simulatore? No nel pentamestre vi faccio fare qualcosa che da un risultato ed è in qualche modo spendibile. 
 Buon lavoro. 
 </details>
+
+## Pentamestre
 <details>
   <summary><font face="Verdana">Automa a stati finiti - ASF</font></summary>
   <table>
@@ -484,6 +486,9 @@ Buon lavoro.
     </tr>
   </table>
 </details>
+
+## Legenda
+ - **NTC**: Non trattato in classe
 
 ## Link utili
 
