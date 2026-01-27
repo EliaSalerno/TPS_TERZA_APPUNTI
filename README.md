@@ -311,9 +311,60 @@ Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i disc
   <table>
     <tr>
       <td>
+	<b>SPI (SERIAL PERIPHERAL INTERFACE)</b><br>
+	Bus standard di comunicazione seriale tra un microcontrollore e altri circuiti integrati o più micontrollori.
+	E' una connessione:
+	1. Sincrona: il master emette il segnale di  clock (SCLK - SCK);
+	2. Seriale: la transizione dei messaggi avviene in modalità seriale;
+	3. Full-duplex: colloquio in entrambe i sensi:
+	   - SDI - MISO - SOMI - DI - SO (Serial Data Input, Master Input Slave Output -> Dallo slave al master);
+	   - SDO - MOSI - SIMO - DO - SI (Serial Data Output, Master Output Slave Input -> Dal master allo slave);
+	4. Inoltre dispone di un canale facoltativo: CS - SS - nCS - nSS -STE (Chip Select / Slave Select). Su questo canale transita un segnale emesso dal master per scegliere con quale slave vuole comunicare.
       </td>
-      <td>
-      </td>
+    </tr>
+    <tr>
+      <table>
+      <tr>
+        <td>
+          <b>PRO</b>
+        </td>
+        <td>
+          <b>CONTRO</b>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Comunicazione più rapida
+        </td>
+        <td>
+          Ci vogliono più pin SS per ogni dispositivo slave collegato
+        </td>
+        <td>
+          DISPOSITIVI CONTROLLATI SINGOLARMENTE
+        </td>
+        <td>
+          <img src="three_slaves.svg" alt="Esempio di controllo singolo">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Uso di un unico pin per selezionare i dispositivi
+        </td>
+        <td>
+          Minore velocità di aggiornamento dei singoli slave, un guasto su un dispositivo può provocare l'interruzione del segnale sugli altri.
+        </td>
+        <td>
+          DISPOSITIVI SLAVE IN CATENA (DAISY CHAIN)
+        </td>
+        <td>
+          <img src="daisy_chain.svg" alt="Esempio di daisy chain">
+        </td>
+      </tr>
+	  </table>
     </tr>
   </table>
 </details>
@@ -419,6 +470,7 @@ Buon lavoro.
   <table>
     <tr>
       <td>
+        <p></p>
       </td>
     </tr>
   </table>
