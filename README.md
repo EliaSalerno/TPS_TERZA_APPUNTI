@@ -476,7 +476,7 @@ Buon lavoro.
         Per automi deterministici intediamo tutti quei sistemi per cui ad un input corrisponde uno e un solo output. In breve che sia legato all'input o che sia legato allo stato, parliamo sempre e solo di un output.
       </td>
       <td>
-        <h3>Automi non deterministici<h3>
+        <h3>Automi non deterministici</h3>
         Per automi non deterministici invece, intendiamo tutti quei sistemi che non hanno un collegamento ovvio tra input, stati e output.<br>
         In un cambiamento di stato possono corrispondere più output.
       </td>
