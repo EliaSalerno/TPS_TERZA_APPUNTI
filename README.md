@@ -369,7 +369,7 @@ Inoltre aggiungo che qui ho fatto un resoconto di tutto ma voi, con tutti i disc
   </table>
 </details>
 <details>
-  <summary><font face="Verdana">UART (non trattato in classe)</font></summary>
+  <summary><font face="Verdana">UART (NTC)</font></summary>
   <table>
     <tr>
       <td>
@@ -463,6 +463,22 @@ Buon lavoro.
       <td><p>Il comportamento di un ASF può essere rappresentato mediante un grafo, in cui gli archi rappresentano le transizioni fra stati, i nodi, denotati da cerchi, rappresentano gli stati. Gli stati finali sono evidenziati da cerchi doppi.<br>
       I simboli sugli archi sono gli input del sistema, ed appartengono all'alfabeto Σ.</p>
       <p>Il comportamento di un circuito sequenziale può essere modellato mediante un particolare tipo di automi a stati finiti: <b>gli automi deterministici con output</b>.<br> Questi automi vengono chiamati macchine di Moore o di Mealy., a seconda che l'output sia associato agli stati, o alle transizioni fra stati.</p>
+      </td>
+    </tr>
+  </table>
+</details>
+<details>
+  <summary>Automi deterministici e non</summary>
+  <table>
+    <tr>
+      <td>
+        <h3>Automi deterministici</h3>
+        Per automi deterministici intediamo tutti quei sistemi per cui ad un input corrisponde uno e un solo output. In breve che sia legato all'input o che sia legato allo stato, parliamo sempre e solo di un output.
+      </td>
+      <td>
+        <h3>Automi non deterministici<h3>
+        Per automi non deterministici invece, intendiamo tutti quei sistemi che non hanno un collegamento ovvio tra input, stati e output.<br>
+        In un cambiamento di stato possono corrispondere più output.
       </td>
     </tr>
   </table>
