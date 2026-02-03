@@ -463,6 +463,7 @@ Buon lavoro.
       <td><p>Il comportamento di un ASF può essere rappresentato mediante un grafo, in cui gli archi rappresentano le transizioni fra stati, i nodi, denotati da cerchi, rappresentano gli stati. Gli stati finali sono evidenziati da cerchi doppi.<br>
       I simboli sugli archi sono gli input del sistema, ed appartengono all'alfabeto Σ.</p>
       <p>Il comportamento di un circuito sequenziale può essere modellato mediante un particolare tipo di automi a stati finiti: <b>gli automi deterministici con output</b>.<br> Questi automi vengono chiamati macchine di Moore o di Mealy., a seconda che l'output sia associato agli stati, o alle transizioni fra stati.</p>
+      <P>Ultimo concetto: gli ASF non hanno, solitamente, un vero <b>termine vita</b> ma piuttosto uno stato di reset, oltre il quale l'automa reinizia il suo ciclo.</P>
       </td>
     </tr>
   </table>
@@ -484,20 +485,37 @@ Buon lavoro.
   </table>
 </details>
 <details>
-  <summary><font face="Verdana">ASF deterministico di Moore</font></summary>
+  <summary>ASF deterministico di Moore</summary>
   <table>
     <tr>
       <td>
-        <p></p>
+        <h3>MOORE</h3>
+        <p>La definizione generica di automa a stati finiti è sempre valida... modello matematico con input ed output discreti, che si può trovare in n configurazioni differenti definite stati.</p>
+        <p>In aggiunta a ciò e in modifica sulla definizione generale di ASF, abbiamo una rappresentazione più completa, bensì la sestupla < Q, ∑, ∆, δ, λ, q<sub>0</sub> ></p>
+        <ul>
+          <li>Q: ancora definito come l'insieme degli stati</li>
+          <li>∑: alfabeto di input</li>
+          <li>∆: alfabeto di outpu (nella definizione generale qui avevamo gli stati finali)</li>
+          <li>δ: funzione di transizione<br>
+              Q x ∑ -> Q
+          </li>
+          <li>λ: funzione d'uscita<br>
+              Q -> ∆
+          </li>
+          <li>q<sub>0</sub>: stato di accesso al sistema o in cui si trova l'automa dopo il reset</li>
+        </ul>
+        <p>In Moore l'output è strettamente associato allo stato, indipendentemente da cosa abbia provocato la transizione.</p>
       </td>
     </tr>
   </table>
 </details>
 <details>
-  <summary><font face="Verdana">ASF deterministico di Mealy</font></summary>
+  <summary>ASF deterministico di Mealy</summary>
   <table>
     <tr>
       <td>
+        <h3>MEALY</h3>
+        <P></P>
       </td>
     </tr>
   </table>
