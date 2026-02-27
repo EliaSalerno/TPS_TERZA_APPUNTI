@@ -515,7 +515,21 @@ Buon lavoro.
     <tr>
       <td>
         <h3>MEALY</h3>
-        <P></P>
+        <p>... modello matematico con input ed output discreti, che si può trovare in n configurazioni differenti definite stati.</p>
+        <p>Abbiamo sempre la sestupla < Q, ∑, ∆, δ, λ, q<sub>0</sub> ></p>
+        <ul>
+          <li>Q: ancora definito come l'insieme degli stati</li>
+          <li>∑: alfabeto di input</li>
+          <li>∆: alfabeto di outpu (nella definizione generale qui avevamo gli stati finali)</li>
+          <li>δ: funzione di transizione<br>
+              Q x ∑ -> Q
+          </li>
+          <li>λ: funzione d'uscita<br>
+              Q x ∑ -> ∆<br>
+              Questa è la differenza da Moore. Qui si parla di un output legato alla transizione.
+          </li>
+          <li>q<sub>0</sub>: stato di accesso al sistema o in cui si trova l'automa dopo il reset</li>
+        </ul>
       </td>
     </tr>
   </table>
