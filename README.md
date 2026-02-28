@@ -534,6 +534,48 @@ Buon lavoro.
     </tr>
   </table>
 </details>
+<details>
+  <summary>Turing Machine</summary>
+  <table>
+    <tr>
+      <td>
+        <h3>Macchina di Turing (MdT)</h3>
+        <p>Per rendere un problema, risolvibile con un computer bisogna:</p>
+        <ul>
+         <li>Trovare un procedimento e tradurlo in un <b>algoritmo</b></li>
+         <li>Scegliere un linguaggio di programmazione e rendere l'algoritmo <b>interpretabile</b> alla macchina</li>
+         <li>Scegliere l'<b>esecutore</b> più adatto</li>
+        </ul>
+        <p>L'<b>esecutore</b> più adatto può essere realizzato con un:</p>
+        <ul>
+         <li>Modello matematico;</li>
+         <li>Congegno meccanico</li>
+        </ul>
+        <p>Le MdT sono il modello matematico più famoso, un'astrazione matematica che rappresenta un potente strumento logico-concettuale per capire che cosa si intende per elaborazione. Sono in grado di eseguire una computazione attraverso un numero finito di operazione su un numero finito di simboli.</p>
+        <p></p>
+        <ul>Le Mdt hanno:
+         <li>posto le basi per la relizzazione dei moderni computer, e sono essenziali per la teoria della computabilità, che studia il calcolo algoritmico.</li>
+         <li>sono alla base della programmazione imperativa, introducendo concetti essenziali come la locazione di memoria, assegnamento, stato e iterazione.</li>
+        <!-- <p>... modello matematico con input ed output discreti, che si può trovare in n configurazioni differenti definite stati.</p>
+        <p>Abbiamo sempre la sestupla < Q, ∑, ∆, δ, λ, q<sub>0</sub> ></p>
+        <ul>
+          <li>Q: ancora definito come l'insieme degli stati</li>
+          <li>∑: alfabeto di input</li>
+          <li>∆: alfabeto di outpu (nella definizione generale qui avevamo gli stati finali)</li>
+          <li>δ: funzione di transizione<br>
+              Q x ∑ -> Q
+          </li>
+          <li>λ: funzione d'uscita<br>
+              Q x ∑ -> ∆<br>
+              Questa è la differenza da Moore. Qui si parla di un output legato alla transizione.
+          </li>
+          <li>q<sub>0</sub>: stato di accesso al sistema o in cui si trova l'automa dopo il reset</li> -->
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
 
 ## Legenda
  - **NTC**: Non trattato in classe
