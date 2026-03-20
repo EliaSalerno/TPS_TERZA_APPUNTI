@@ -558,53 +558,28 @@ Buon lavoro.
          <li>sono alla base della programmazione imperativa, introducendo concetti essenziali come la locazione di memoria, assegnamento, stato e iterazione.</li>
          <li>Si definisce macchina di Turing deterministica a un nastro e istruzioni a cinque campi, termine che abbreviamo con MdT1n5i, una macchina formale della seguente forma:
 
-T
-=
-⟨
-S
-,
-s
-0
-,
-F
-,
-A
-,
-β
-,
-δ
+T=⟨S,s0,F,A,β,δ
 ⟩
 dove
+
 {\displaystyle T=\langle S,s_{0},F,A,\beta ,\delta \rangle \quad {\mbox{dove}}}
-S
-{\displaystyle S} è un insieme finito detto insieme degli stati della macchina;
+S{\displaystyle S} è un insieme finito detto insieme degli stati della macchina;
 
 s
-0
-{\displaystyle s_{0}} è un elemento di 
-S
-{\displaystyle S} detto stato iniziale della 
-T
-{\displaystyle T};
+0{\displaystyle s_{0}} è un elemento di 
+S{\displaystyle S} detto stato iniziale della 
+T{\displaystyle T};
 
-F
-{\displaystyle F} è un sottoinsieme di 
-S
-{\displaystyle S} detto insieme degli stati finali della 
-T
-{\displaystyle T};
+F{\displaystyle F} è un sottoinsieme di 
+S{\displaystyle S} detto insieme degli stati finali della 
+T{\displaystyle T};
 
-A
-{\displaystyle A} è un alfabeto finito detto alfabeto del nastro della 
-T
-{\displaystyle T}
+A{\displaystyle A} è un alfabeto finito detto alfabeto del nastro della 
+T{\displaystyle T}
 
-β
-{\displaystyle \beta } è un carattere dell'alfabeto 
-A
-{\displaystyle A} detto segno di casella vuota del nastro della 
-T
-{\displaystyle T}
+β{\displaystyle \beta } è un carattere dell'alfabeto 
+A{\displaystyle A} detto segno di casella vuota del nastro della 
+T{\displaystyle T}
 
          </li>
         </ul>
