@@ -594,6 +594,7 @@ T{\displaystyle T}
 
 ## Link utili
 
+ - [wiki for mdt](https://it.wikipedia.org/wiki/Macchina_di_Turing)
  - [Fonti alu](https://www.instructables.com/8-bit-ALU-Arithmetic-Logic-Unit)
  - [Fonti alu ... ancora](https://www.101computing.net/8-bit-alu-using-logic-gates/)
  - [Fonte latch](https://www.geeksforgeeks.org/digital-logic/latches-in-digital-logic/?utm_source=chatgpt.com)
